@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <header>
+        <h1>ONLINE CALCULATOR</h1>
+    </header>
+
+    <main>
+        <div class="calculator-body">
+            <div class="input-display">
+                <div class="input-div">
+                    <input class="input-box" type="text" placeholder="Enter number">
+                </div>
+                <div class="display-box"></div>
+            </div>
+            <div class="number-operations">
+                <div class="number">
+                    <button class="child child-numbers" onclick="enter(event)">9</button>
+                    <button class="child child-numbers" onclick="enter(event)">8</button>
+                    <button class="child child-numbers" onclick="enter(event)">7</button>
+                    <button class="child child-numbers" onclick="enter(event)">6</button>
+                    <button class="child child-numbers" onclick="enter(event)">5</button>
+                    <button class="child child-numbers" onclick="enter(event)">4</button>
+                    <button class="child child-numbers" onclick="enter(event)">3</button>
+                    <button class="child child-numbers" onclick="enter(event)">2</button>
+                    <button class="child child-numbers" onclick="enter(event)">1</button>
+                    <button class="child child-numbers" onclick="enter(event)">0</button>
+                    <button class="child child-numbers" onclick="enter(event)">00</button>
+                    <button class="child child-numbers" onclick="enter(event)">.</button>
+                    <button class="child child-equal" onclick="displayAnswer()">=</button>
+                    <button class="child childAC" onclick="clearDisplay()">AC</button>
+                    <button class="child" onclick="backinput()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5"/></svg></button>
+                </div>
+                <div class="operations">
+                    <button class="child child-operation" onclick="enter(event)">%</button>
+                    <button class="child child-operation" onclick="enter(event)">+</button>
+                    <button class="child child-operation" onclick="enter(event)">*</button>
+                    <button class="child child-operation" onclick="enter(event)">/</button>
+                    <button class="child child-operation" onclick="enter(event)">-</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+
+</html>
