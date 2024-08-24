@@ -12,6 +12,9 @@ header {
     text-align: center;
     margin-block: 2rem;
 }
+header .heading {
+    text-shadow: 0px 0px 14px #00ff28;
+}
 main {
     margin-bottom: 10px;
 }
@@ -23,6 +26,7 @@ main {
     padding: 20px;
     border: 1px solid black;
     max-width: fit-content;
+    box-shadow: 0px 0px 35px 12px #00ecff;
 }
 .input-display {
     background-color: white;
